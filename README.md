@@ -22,3 +22,33 @@ Should be capable of:
 2. Sync'ing with the cloud (optionally)
 
 Ideally should NOT be dependant upon a device's Cloud account.
+
+## Reference
+
+Some useful references follow.
+
+#### App Store
+
+App Store Review Guidelines: http://developer.apple.com/app-store/review/
+
+App Store Submissions: http://developer.apple.com/app-store/submissions/
+
+#### Google Play Store
+
+Overview: http://developer.android.com/distribute/best-practices/launch
+
+#### TestFlight
+
+Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
+
+## To Do
+
+- [x] Add links for various deployment options
+- [ ] Build and release for web
+- [ ] Deploy to GitHub Pages
+- [ ] Build and test for Android
+- [ ] Publish to the Google Play Store
+- [ ] Build and test for iOS
+- [ ] [Optional] Publish to TestFlight
+- [ ] Publish to the App Store
+- [ ] Set up a CI/CD pipeline
