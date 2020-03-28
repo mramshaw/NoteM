@@ -8,6 +8,7 @@ A note-taking app that can be used on mobile:
 
 * Either iOS or Android
 * Does not depend upon cloud storage
+* Possibly web (optionally)
 
 Possible uses:
 
@@ -21,11 +22,34 @@ Should be capable of:
 1. Local storage
 2. Sync'ing with the cloud (optionally)
 
-Ideally should NOT be dependant upon a device's Cloud account.
+Ideally should NOT be dependent upon a device's Cloud account.
+
+#### Validation
+
+* Either a Note title OR a Note body must be present
+
+#### Actions
+
+* Note can be added
+* Note can be flagged
+* Note can be starred
+* Note can be edited
+* Note can be deleted (swipe)
+
+Notes can be filtered by `star` or `flag`.
+
+#### Architecture
+
+* Application constants should be centralized in one place
+* Persistent storage should be mediated by a DAO (facilitates easy swapping)
+
+#### Tests
+
+- [x] Tests for singleton DAO
 
 ## Reference
 
-Some useful references follow.
+Some useful links follow.
 
 #### App Store
 
@@ -52,3 +76,6 @@ Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
 - [ ] [Optional] Publish to TestFlight
 - [ ] Publish to the App Store
 - [ ] Set up a CI/CD pipeline
+- [x] Internationalize everything
+- [x] Translations (French)
+- [ ] Translations (Spanish)
