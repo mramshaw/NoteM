@@ -57,6 +57,26 @@ App Store Review Guidelines: http://developer.apple.com/app-store/review/
 
 App Store Submissions: http://developer.apple.com/app-store/submissions/
 
+#### Fat APKs
+
+Initial 'fat' release:
+
+    `app-release.apk`            19.7 MB (19,664,349 bytes)
+
+Targetted release:
+
+    `app-arm64-v8a-release.apk`   7.7 MB (8,058,472 bytes)
+    `app-armeabi-v7a-release.apk` 7.4 MB (7,743,759 bytes)
+    `app-x86_64-release.apk`      7.9 MB (8,223,996 bytes)
+
+These APKs correspond to the following processors:
+
+    ARM    `app-armeabi-v7a-release.apk`
+    ARM64  `app-arm64-v8a-release.apk`
+    x86_64 `app-x86_64-release.apk`
+
+[It turns out that it is not easy to determine the processor of an Android phone.]
+
 #### Google Play Store
 
 Overview: http://developer.android.com/distribute/best-practices/launch
@@ -68,6 +88,7 @@ Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
 ## To Do
 
 - [x] Add links for various deployment options
+- [x] Add notes on Android build architectures
 - [ ] Build and release for web
 - [ ] Deploy to GitHub Pages
 - [ ] Build and test for Android
