@@ -42,6 +42,7 @@ Notes can be filtered by `star` or `flag`.
 
 * Application constants should be centralized in one place
 * Persistent storage should be mediated by a DAO (facilitates easy swapping)
+* Application should be [reactive](http://en.wikipedia.org/wiki/Reactive_programming), or - at least - stream-based
 
 #### Tests
 
