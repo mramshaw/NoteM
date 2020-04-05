@@ -58,6 +58,10 @@ App Store Review Guidelines: http://developer.apple.com/app-store/review/
 
 App Store Submissions: http://developer.apple.com/app-store/submissions/
 
+#### Fabric.io
+
+Fabric roadmap: http://get.fabric.io/roadmap
+
 #### Fat APKs
 
 Initial 'fat' release:
@@ -82,6 +86,10 @@ These APKs correspond to the following processors:
 
 Overview: http://developer.android.com/distribute/best-practices/launch
 
+#### Sentry.io
+
+Sentry documenatation: http://docs.sentry.io/
+
 #### TestFlight
 
 Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
@@ -96,6 +104,7 @@ Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
 - [ ] Publish to the Google Play Store
 - [ ] Build and test for iOS
 - [ ] [Optional] Publish to TestFlight
+- [ ] [Optional] Integrate with Fabric.io (deprecated; Crashlytics recommended) or Sentry.io
 - [ ] Publish to the App Store
 - [ ] Set up a CI/CD pipeline
 - [x] Internationalize everything
