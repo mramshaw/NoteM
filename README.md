@@ -20,7 +20,7 @@ Possible uses:
 Should be capable of:
 
 1. Local storage
-2. Sync'ing with the cloud (optionally)
+2. <del>Sync'ing with the cloud (optionally)</del>
 
 Ideally should NOT be dependent upon a device's Cloud account.
 
