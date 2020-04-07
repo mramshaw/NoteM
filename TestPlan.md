@@ -34,7 +34,7 @@ Select the 'flag' filter. Verify the results are as shown:
 
 #### Flag Filter
 
-Select the 'star' filter. Verify the results are as shown:
+Deselect the 'star' filter. Verify the results are as shown:
 
 ![Starred](images/flagged.png)
 
@@ -54,9 +54,9 @@ Update some notes. Verify updating notes works correctly.
 
 ## Deleting Notes (Clean-up)
 
-Delete all four notes.
+Delete all four notes (swipe right-to-left).
 
-The app should now be in ___as installed___ state:
+The app should now be back in its ___as installed___ state:
 
 ![As installed](images/as_installed.png)
 
@@ -66,7 +66,7 @@ Verify that there have been no crash reports in Fabric/Sentry.
 
 #### Ongoing
 
-Monitor Fabric/Sentry on on ongoing basis for crash reports.
+Monitor Fabric/Sentry on an ongoing basis for crash reports.
 
 #### Fabric/Sentry setup
 

@@ -24,6 +24,8 @@ Should be capable of:
 
 Ideally should NOT be dependent upon a device's Cloud account.
 
+[Item 2, Cloud Sync'ing, was dropped. The app only uses local storage.]
+
 #### Validation
 
 * Either a Note title OR a Note body must be present
@@ -103,7 +105,7 @@ Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
 
 - [x] Add links for various deployment options
 - [x] Add notes on Android build architectures
-- [x] Add [Test Plan](TestPlan.md)
+- [x] Add a [Test Plan](TestPlan.md)
 - [ ] Build and release for web
 - [ ] Deploy to GitHub Pages
 - [ ] Build and test for Android
