@@ -43,8 +43,13 @@ Notes can be filtered by `star` or `flag`.
 * Application constants should be centralized in one place
 * Persistent storage should be mediated by a DAO (facilitates easy swapping)
 * Application should be [reactive](http://en.wikipedia.org/wiki/Reactive_programming), or - at least - stream-based
+* Include a database maintenance option
 
 #### Tests
+
+Follow [Test Plan](TestPlan.md).
+
+Integration tests as follows:
 
 - [x] Tests for singleton DAO
 
@@ -98,6 +103,7 @@ Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
 
 - [x] Add links for various deployment options
 - [x] Add notes on Android build architectures
+- [x] Add [Test Plan](TestPlan.md)
 - [ ] Build and release for web
 - [ ] Deploy to GitHub Pages
 - [ ] Build and test for Android
