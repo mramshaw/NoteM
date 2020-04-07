@@ -116,5 +116,6 @@ Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
 - [ ] Publish to the App Store
 - [ ] Set up a CI/CD pipeline
 - [x] Internationalize everything
+- [x] Translations (English)
 - [x] Translations (French)
 - [ ] Translations (Spanish)
