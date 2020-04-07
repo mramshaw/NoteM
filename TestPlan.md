@@ -78,11 +78,13 @@ The project should be added to Fabric/Sentry as early as possible to verify prop
 
 It is sometimes possible to separate these (bug/crash reports when developing are not normally serious).
 
-But for practical reasons it is probably best to always have this enabled.
+But for practical reasons it is probably best to always have bug/crash reporting enabled during development.
 
 #### Release tagging
 
-In order to be better able to ___triage___ bug/crash reports, robust release versions (and tagging) shoudl be employed.
+In order to be better able to ___triage___ bug/crash reports, robust release versions (and tagging) should be employed.
+
+[SemVer](http://semver.org/) release versions should be used for each release.
 
 ## To Do
 
