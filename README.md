@@ -51,7 +51,7 @@ Notes can be filtered by `star` or `flag`.
 
 Follow [Test Plan](TestPlan.md).
 
-Integration tests as follows:
+Unit tests as follows:
 
 - [x] Tests for singleton DAO
 
@@ -106,9 +106,13 @@ Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
 - [x] Add links for various deployment options
 - [x] Add notes on Android build architectures
 - [x] Add a [Test Plan](TestPlan.md)
+- [ ] Investigate web drivers for testing
+- [ ] Instrument app events to a level of granularity sufficient for debugging & analytics
 - [ ] Build and release for web
 - [ ] Deploy to GitHub Pages
 - [ ] Build and test for Android
+- [ ] Investigate Google Tag Manager
+- [ ] Investigate Google Play Store ads
 - [ ] Publish to the Google Play Store
 - [ ] Build and test for iOS
 - [ ] [Optional] Publish to TestFlight
