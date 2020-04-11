@@ -7,7 +7,7 @@ A list of events to be logged for debugging/analytics purposes
 Even though this is a relatively small application, the number
 of events (user and otherwise) to be logged is really surprising.
 
-[Presently ___26___ (although all will not be logged) and this
+[Presently ___30___ (although all will not be logged) and this
  is without any attempt to log hardware, language or demographic
  characteristics.]
 
@@ -70,6 +70,22 @@ It is possible to return from the Update page without
 updating a Note so __2__ here does not have to correspond
 to __2__ above. Likewise it is possible to update a Note
 more than once on the Update page.
+
+## Flagging/Starring
+
+[These actions occur on the __Home__ page rather than
+ the __Update Note__ page, so they need to be considered
+ as events in their own right.]
+
+1. Note flagged
+1. Note un-flagged
+2. Note starred
+2. Note un-starred
+
+[Flagging or starring a Note doesn't affect the Note
+ presentation order, however it is possible to filter
+ Notes based upon whether they have been flagged and/or
+ starred.]
 
 ## Validation
 
