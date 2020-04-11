@@ -25,10 +25,12 @@ to think in terms of life-cycle events.
 2. Application updated
 3. Application uninstalled
 
-Too may applications fail to consider the second possibility,
+Too many applications fail to consider the second possibility,
 which generally makes debugging (and even bug triage) quite
-difficult, as the application __release version__ is pretty
-much critical to do either of these things effectively.
+difficult, as the application __release version__ (and also
+the __Application Environment__ - as in, Testing, Staging, QA,
+Production) is pretty much critical to do either of these things
+effectively.
 
 Accordingly, all of the of the event logging should include
 the app release version (according to __SemVer__ principles).
@@ -103,7 +105,7 @@ At present there are no plans for application update, so __3__
 is only listed for methodology purposes.
 
 Probably only __4__ needs to be logged, as the others are part
-of application installation and de-installation, respectively.
+of application installation and uninstallation, respectively.
 
 ## To Do
 
