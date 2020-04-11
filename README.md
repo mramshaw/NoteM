@@ -1,5 +1,7 @@
 # Mobile Note-taker
 
+![Graphic](images/playstore.png)
+
 A mobile note-taking app
 
 ## Goals

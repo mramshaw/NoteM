@@ -33,7 +33,8 @@ Production) is pretty much critical to do either of these things
 effectively.
 
 Accordingly, all of the of the event logging should include
-the app release version (according to __SemVer__ principles).
+the app release version (according to [SemVer](http://semver.org)
+principles).
 
 [Apple App Store/Google Play Store tracks installs/uninstalls
  to some extent, but it's a good idea to log them anyway - as
