@@ -47,6 +47,10 @@ Notes can be filtered by `star` or `flag`.
 * Application should be [reactive](http://en.wikipedia.org/wiki/Reactive_programming), or - at least - stream-based
 * Include a database maintenance option
 
+#### Instrumentation
+
+The requirements are still to be determined; [Events](Events.md) defined.
+
 #### Tests
 
 Follow [Test Plan](TestPlan.md).
