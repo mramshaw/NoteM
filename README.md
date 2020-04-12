@@ -130,7 +130,7 @@ While it is possible to install unsigned IPAs, they may only be valid for seven 
 
 Also, it may be necessary to ___register___ the target device first.
 
-## To Do
+## To Do (General)
 
 - [x] Add links for various deployment options
 - [x] Add notes on Android build architectures
@@ -139,18 +139,24 @@ Also, it may be necessary to ___register___ the target device first.
 - [ ] Instrument app events to a level of granularity sufficient for debugging & analytics
 - [ ] Build and release for web
 - [ ] Deploy to GitHub Pages
-- [ ] Build and test for Android
 - [ ] Investigate Google Tag Manager
-- [ ] Investigate Google Play Store ads
-- [ ] Investigate APKs versus App Bundles (also code-signing)
-- [ ] Publish to the Google Play Store
-- [ ] Build and test for iOS
-- [ ] Investigate Apple APPs versus Apple IPAs (also code-signing)
-- [ ] [Optional] Publish to TestFlight
 - [ ] [Optional] Integrate with Fabric.io (deprecated; Crashlytics recommended) or Sentry.io
-- [ ] Publish to the App Store
 - [ ] Set up a CI/CD pipeline
 - [x] Internationalize everything
 - [x] Translations (English)
 - [x] Translations (French)
 - [ ] Translations (Spanish)
+
+#### To Do (Google Play Store / Android)
+
+- [ ] Build and test for Android
+- [ ] Investigate Google Play Store ads
+- [ ] Investigate APKs versus App Bundles (also code-signing)
+- [ ] Publish to the Google Play Store
+
+#### To Do (Apple App Store/ iOS)
+
+- [ ] Build and test for iOS
+- [ ] Investigate Apple APPs versus Apple IPAs (also code-signing)
+- [ ] [Optional] Publish to TestFlight
+- [ ] Publish to the App Store
