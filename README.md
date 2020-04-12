@@ -71,6 +71,8 @@ App Store Review Guidelines: http://developer.apple.com/app-store/review/
 
 App Store Submissions: http://developer.apple.com/app-store/submissions/
 
+Analytics: http://developer.apple.com/app-store-connect/analytics/
+
 #### Fabric.io
 
 Fabric roadmap: http://get.fabric.io/roadmap
@@ -99,13 +101,32 @@ These APKs correspond to the following processors:
 
 Overview: http://developer.android.com/distribute/best-practices/launch
 
+#### IPA files
+
+Apple apps are generally distributed as __IPA__ files (the situation with Apple APPs and
+IPAs seems to be analagous to Android APKs and Android App Bundle files - both IPAs and
+Android App Bundle files are normally ___signed___).
+
+Wikipedia is pretty informative on the subject of IPAs: http://en.wikipedia.org/wiki/.ipa
+
+IPA files (actually ___archive___ files) are normally signed by a registered Apple
+Developer.
+
 #### Sentry.io
 
-Sentry documenatation: http://docs.sentry.io/
+Sentry documentation: http://docs.sentry.io/
 
 #### TestFlight
 
 Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
+
+[Probably a good idea for iOS releases as Apple requirements are stringent.]
+
+#### Unsigned IPA files
+
+How to open an unsigned IPA: http://support.apple.com/en-us/guide/mac-help/mh40616/mac
+
+While it is possible to install unsigned IPAs, they may only be valid for seven days.
 
 ## To Do
 
