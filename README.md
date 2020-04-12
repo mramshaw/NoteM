@@ -105,7 +105,7 @@ Overview: http://developer.android.com/distribute/best-practices/launch
 
 Apple apps are generally distributed as __IPA__ files (the situation with Apple APPs and
 IPAs seems to be analagous to Android APKs and Android App Bundle files - both IPAs and
-Android App Bundle files are normally ___signed___).
+Android App Bundle files are normally ___Signed___).
 
 Wikipedia is pretty informative on the subject of IPAs: http://en.wikipedia.org/wiki/.ipa
 
@@ -128,6 +128,8 @@ How to open an unsigned IPA: http://support.apple.com/en-us/guide/mac-help/mh406
 
 While it is possible to install unsigned IPAs, they may only be valid for seven days.
 
+Also, it may be necessary to ___register___ the target device first.
+
 ## To Do
 
 - [x] Add links for various deployment options
@@ -140,8 +142,10 @@ While it is possible to install unsigned IPAs, they may only be valid for seven 
 - [ ] Build and test for Android
 - [ ] Investigate Google Tag Manager
 - [ ] Investigate Google Play Store ads
+- [ ] Investigate APKs versus App Bundles (also code-signing)
 - [ ] Publish to the Google Play Store
 - [ ] Build and test for iOS
+- [ ] Investigate Apple APPs versus Apple IPAs (also code-signing)
 - [ ] [Optional] Publish to TestFlight
 - [ ] [Optional] Integrate with Fabric.io (deprecated; Crashlytics recommended) or Sentry.io
 - [ ] Publish to the App Store

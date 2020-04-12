@@ -114,7 +114,7 @@ more than once on the Update page.
 1. Database created and initialized
 2. Notes table created
 3. Notes table updated (app update)
-4. Database vacuumed
+4. Database maintenance performed
 5. Notes table deallocated
 6. Database deallocated
 
