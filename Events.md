@@ -5,14 +5,14 @@ A list of events to be logged for debugging/analytics purposes
 ## Rationale
 
 Even though this is a relatively small application, the number
-of events (user and otherwise) to be logged is really surprising.
+of events (user and otherwise) to be logged is surprising.
 
-[Presently ___30___ (although all will not be logged) and this
- is without any attempt to log hardware, language or demographic
- characteristics.]
+[Presently ___30___ (although not all will be logged) and this
+ is without any consideration of hardware/language/demographic
+ characteristics - these are investigated in [Logging](Logging.md).]
 
-This document is an attempt to list all log events. While it may
-prove unnecessary to log all of them, the first step in deciding
+This document is an attempt to list all events. While it may
+be unnecessary to log all of them, the first step in deciding
 what level of granularity is needed for debugging/logging/analytics
 purposes is to list all of the possible events to be logged.
 

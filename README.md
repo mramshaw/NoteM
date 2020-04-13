@@ -51,7 +51,7 @@ Notes can be filtered by `star` or `flag`.
 
 #### Instrumentation
 
-The requirements are still to be determined; [Events](Events.md) defined.
+The requirements are still to be determined; [Events](Events.md) defined, [Logging details](Logging.md) investigated.
 
 #### Tests
 
@@ -65,13 +65,21 @@ Unit tests as follows:
 
 Some useful links follow.
 
-#### App Store
+#### Apple App Store
 
-App Store Review Guidelines: http://developer.apple.com/app-store/review/
+App Store Review Overview: http://developer.apple.com/app-store/review/
+
+App Store Review Guidelines: http://developer.apple.com/app-store/review/guidelines/
 
 App Store Submissions: http://developer.apple.com/app-store/submissions/
 
 Analytics: http://developer.apple.com/app-store-connect/analytics/
+
+#### Apple Developer Program
+
+Home page: http://developer.apple.com/programs/
+
+Gives access to [TestFlight](#testflight) as well as [App Store Connect](http://appstoreconnect.apple.com/).
 
 #### Fabric.io
 
@@ -136,6 +144,7 @@ Also, it may be necessary to ___register___ the target device first.
 - [x] Add notes on Android build architectures
 - [x] Add a [Test Plan](TestPlan.md)
 - [ ] Investigate web drivers for testing
+- [x] Investigate the details necessary to effectively debug/analyze the app
 - [ ] Instrument app events to a level of granularity sufficient for debugging & analytics
 - [ ] Build and release for web
 - [ ] Deploy to GitHub Pages
