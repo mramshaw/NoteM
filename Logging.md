@@ -19,11 +19,12 @@ These categories overlap to a certain extent (this is not shown on the diagram).
 
 ## User
 
-Mainly useful for demographic/analytic/marketing purposes:
+Mainly useful for demographic/analytic/marketing purposes, but also important
+for legal purposes:
 
 * Age (or Age Group)
 * Gender
-* Residence
+* Residence (Country, region, principality)
 * Nationality
 
 [Probably depend upon Apple App Store / Google Play Store reporting for these.]
@@ -40,6 +41,15 @@ demographic/analytic/marketing purposes:
 * Operating System version
 * Language & Locale (local does not have to be present)
 
+Device Type / Device Processor / Operating System are necessary to
+isolate the particular app build that may be problematic.
+
+Language (English, French) is a user setting, but is listed here as a
+device characteristic. Locale may not be present, but is generally a
+sub-category of language (en_US, fr_FR, etc).
+
+#### Android
+
 Android devices have a more limited form-factor, but many more suppliers
 (each of which may trail Official Android releases by quite some effort).
 
@@ -47,16 +57,11 @@ Android devices generally fall into three broad processor types [it is
 non-trivial to determine the processor type from the model, but this is
 something that Google Play Store reporting probably handles].
 
+#### iOS
+
 iOS devices come in a wide variety of form factors, but are generally a
 lot more restricted in terms of generally being up-to-date with the
 latest iOS release (but might trail by a release or two).
-
-Device Type / Device Processor / Operating System are necessary to
-isolate the particular app build that may be problematic.
-
-Language (English, French) is a user setting, but is listed here as a
-device characteristic. Locale may not be present, but is generally a
-sub-category of language (en_US, fr_FR, etc).
 
 ## Application
 
