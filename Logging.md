@@ -39,14 +39,14 @@ demographic/analytic/marketing purposes:
 * Device Processor
 * Operating System (Android, iOS)
 * Operating System version
-* Language & Locale (local does not have to be present)
+* Language & Locale (locale does not have to be present)
 
 Device Type / Device Processor / Operating System are necessary to
 isolate the particular app build that may be problematic.
 
 Language (English, French) is a user setting, but is listed here as a
 device characteristic. Locale may not be present, but is generally a
-sub-category of language (en_US, fr_FR, etc).
+sub-category of language (as in __en\_US__, __fr\_FR__, etc).
 
 #### Android
 

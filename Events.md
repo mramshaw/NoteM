@@ -41,9 +41,9 @@ principles).
  downloads do not have to exactly match installations, and logging
  uninstalls is probably just a good practice anyway. Any user
  demographics will be from either App Store reporting or Play
- Store reporting. Still, it would probably be useful to track
- language, as this might be used to justify a professional
- translation effort.]
+ Store reporting. Still, it would be useful to track language
+ (and locale), as these might be useful for justifying
+ a professional translation effort.]
 
 ## Session
 
