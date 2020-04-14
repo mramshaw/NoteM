@@ -79,8 +79,8 @@ progressively more critical).
 
 This would also be the category where we might introduce app-specific
 event details (highly-active or engaged users, for example) that are
-of particular interest for future marketing efforts (these remain to
-be defined).
+of particular interest for future marketing or retargeting efforts
+(these remain to be defined).
 
 ## To Do
 

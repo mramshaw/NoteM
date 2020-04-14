@@ -65,6 +65,22 @@ Unit tests as follows:
 
 Some useful links follow.
 
+#### Android App Bundle
+
+[These replace the previous `APK` (Android Package Kit) files.
+ It is possible to install APK files but the Google Play Store
+ requires Android App Bundle files. Only APKs from trusted
+ providers should be installed - Google offers a number of
+ protections, which include scanning the APK for exploits.]
+
+Details: http://developer.android.com/platform/technology/app-bundle
+
+AABs tend to reduce some of the bloat of APKs (see [Fat APKs](#fat-apks)
+below for details of APK bloat), plus Google Play Store will handle
+the delivery of builds appropriate for the processor type of the target
+device.  So generally a good idea (much research suggests reducing the
+download size of an app leads to more downloads).
+
 #### Apple App Store
 
 App Store Review Overview: http://developer.apple.com/app-store/review/
@@ -89,19 +105,19 @@ Fabric roadmap: http://get.fabric.io/roadmap
 
 Initial 'fat' release:
 
-    `app-release.apk`            19.7 MB (19,664,349 bytes)
+    app-release.apk            19.7 MB (19,664,349 bytes)
 
 Targetted release:
 
-    `app-arm64-v8a-release.apk`   7.7 MB (8,058,472 bytes)
-    `app-armeabi-v7a-release.apk` 7.4 MB (7,743,759 bytes)
-    `app-x86_64-release.apk`      7.9 MB (8,223,996 bytes)
+    app-arm64-v8a-release.apk   7.7 MB (8,058,472 bytes)
+    app-armeabi-v7a-release.apk 7.4 MB (7,743,759 bytes)
+    app-x86_64-release.apk      7.9 MB (8,223,996 bytes)
 
 These APKs correspond to the following processors:
 
-    ARM    `app-armeabi-v7a-release.apk`
-    ARM64  `app-arm64-v8a-release.apk`
-    x86_64 `app-x86_64-release.apk`
+    ARM    app-armeabi-v7a-release.apk
+    ARM64  app-arm64-v8a-release.apk
+    x86_64 app-x86_64-release.apk
 
 [It turns out that it is not easy to determine the processor of an Android phone.]
 
