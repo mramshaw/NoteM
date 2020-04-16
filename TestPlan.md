@@ -2,7 +2,29 @@
 
 A test plan to verify proper functioning of Notes application
 
-## Initial
+## Contents
+
+The contents are as follows:
+
+* [Initial app](#initiala-app)
+* [Adding Notes](#adding-notes)
+* [Tooltips](#tooltips)
+* [Filtering](#filtering)
+    * [Star Filter](#star-filter)
+    * [Star and Flag Filter](#star-and-flag-filter)
+    * [Flag Filter](#flag-filter)
+    * [No filtering](#no-filtering)
+* [Scrolling](#scrolling)
+* [Updating Notes](#updating-notes)
+* [Deleting Notes](#deleting-notes)
+* [Monitoring](#monitoring)
+    * [Ongoing](#ongoing)
+    * [Fabric/Sentry setup](#fabricsentry-setup)
+    * [Debugging/Staging/Production](#debuggingstagingproduction)
+    * [Release tagging](#release-tagging)
+* [To Do](#to-do)
+
+## Initial app
 
 After installation, the app should look as follows:
 
@@ -13,6 +35,19 @@ After installation, the app should look as follows:
 Add four notes as shown:
 
 ![Set up](images/set_up.png)
+
+## Tooltips
+
+![Tool tips](images/tooltips.png)
+
+Long press the following items as shown:
+
+1. Star filter
+2. Flag filter
+3. Note Star
+4. Note Flag
+
+Verify that an appropriate tooltip appears.
 
 ## Filtering
 
@@ -50,11 +85,11 @@ Add some more notes. Verify scrolling works correctly.
 
 ## Updating Notes
 
-Update some notes. Verify updating notes works correctly.
+Update some notes (double-tap the note body). Verify updating notes works correctly.
 
-## Deleting Notes (Clean-up)
+## Deleting Notes
 
-Delete all four notes (swipe right-to-left).
+To clean up, delete all four notes (swipe right-to-left).
 
 The app should now be back in its ___as installed___ state:
 

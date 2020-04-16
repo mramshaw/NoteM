@@ -81,6 +81,10 @@ the delivery of builds appropriate for the processor type of the target
 device.  So generally a good idea (much research suggests reducing the
 download size of an app leads to more downloads).
 
+#### App Signing by Google Play
+
+How to sign an Android app: http://support.google.com/googleplay/android-developer/answer/7384423
+
 #### Apple App Store
 
 App Store Review Overview: http://developer.apple.com/app-store/review/
