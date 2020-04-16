@@ -6,8 +6,9 @@ A test plan to verify proper functioning of Notes application
 
 The contents are as follows:
 
-* [Initial app](#initiala-app)
+* [Initial app](#initial-app)
 * [Adding Notes](#adding-notes)
+    * [Add note validation](#add-note-validation)
 * [Tooltips](#tooltips)
 * [Filtering](#filtering)
     * [Star Filter](#star-filter)
@@ -16,6 +17,7 @@ The contents are as follows:
     * [No filtering](#no-filtering)
 * [Scrolling](#scrolling)
 * [Updating Notes](#updating-notes)
+    * [Update note validation](#update-note-validation)
 * [Deleting Notes](#deleting-notes)
 * [Monitoring](#monitoring)
     * [Ongoing](#ongoing)
@@ -35,6 +37,10 @@ After installation, the app should look as follows:
 Add four notes as shown:
 
 ![Set up](images/set_up.png)
+
+#### Add note validation
+
+Verify that a note must have ___either___ a title ___or___ a body.
 
 ## Tooltips
 
@@ -81,11 +87,19 @@ Deselect the 'flag' filter. Verify the results are as shown:
 
 ## Scrolling
 
-Add some more notes. Verify scrolling works correctly.
+Add some more notes.
+
+Verify scrolling works correctly.
 
 ## Updating Notes
 
-Update some notes (double-tap the note body). Verify updating notes works correctly.
+Update some notes (double-tap the note body).
+
+Verify updating notes works correctly.
+
+#### Update note validation
+
+Verify that a note must have ___either___ a title ___or___ a body.
 
 ## Deleting Notes
 

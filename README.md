@@ -37,7 +37,7 @@ Ideally should NOT be dependent upon a device's Cloud account.
 * Note can be added
 * Note can be flagged
 * Note can be starred
-* Note can be edited
+* Note can be edited (double-tap)
 * Note can be deleted (swipe)
 
 Notes can be filtered by `star` or `flag`.
