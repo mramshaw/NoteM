@@ -19,6 +19,9 @@ The contents are as follows:
 * [Updating Notes](#updating-notes)
     * [Update note validation](#update-note-validation)
 * [Deleting Notes](#deleting-notes)
+* [Menu items](#menu-items)
+    * [About Notes](#about-notes)
+    * [Clean up database](#clean-up-database)
 * [Monitoring](#monitoring)
     * [Ongoing](#ongoing)
     * [Fabric/Sentry setup](#fabricsentry-setup)
@@ -93,7 +96,7 @@ Verify scrolling works correctly.
 
 ## Updating Notes
 
-Update some notes (double-tap the note body).
+Update some notes (double-tap the note body to switch to the Update Note screen).
 
 Verify updating notes works correctly.
 
@@ -108,6 +111,24 @@ To clean up, delete all four notes (swipe right-to-left).
 The app should now be back in its ___as installed___ state:
 
 ![As installed](images/as_installed.png)
+
+## Menu items
+
+Open the menu and verify the following items.
+
+#### About Notes
+
+Select the 'About Notes' option.
+
+Verify the about popup shows.
+
+Close the popup.
+
+#### Clean up database
+
+Select the 'Clean up database' option.
+
+Verify that it doesn't crash.
 
 ## Monitoring
 
