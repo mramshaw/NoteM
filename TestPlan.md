@@ -24,7 +24,7 @@ The contents are as follows:
     * [Clean up database](#clean-up-database)
 * [Monitoring](#monitoring)
     * [Ongoing](#ongoing)
-    * [Fabric/Sentry setup](#fabricsentry-setup)
+    * [Crashlytics/Sentry setup](#crashlyticssentry-setup)
     * [Debugging/Staging/Production](#debuggingstagingproduction)
     * [Release tagging](#release-tagging)
 * [To Do](#to-do)
@@ -132,15 +132,15 @@ Verify that it doesn't crash.
 
 ## Monitoring
 
-Verify that there have been no crash reports in Fabric/Sentry.
+Verify that there have been no crash reports in Crashlytics/Sentry.
 
 #### Ongoing
 
-Monitor Fabric/Sentry on an ongoing basis for crash reports.
+Monitor Crashlytics/Sentry on an ongoing basis for crash reports.
 
-#### Fabric/Sentry setup
+#### Crashlytics/Sentry setup
 
-The project should be added to Fabric/Sentry as early as possible to verify proper function.
+The project should be added to Crashlytics/Sentry as early as possible to verify proper function.
 
 [Bug/Crash reports tend to be intermittent and/or sporadic, so best to have strong confidence in their reporting.]
 

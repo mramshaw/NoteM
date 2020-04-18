@@ -135,6 +135,8 @@ Apple apps are generally distributed as __IPA__ files (the situation with Apple 
 IPAs seems to be analagous to Android APKs and Android App Bundle files - both IPAs and
 Android App Bundle files are normally ___Signed___).
 
+Wikipedia is pretty informative on the subject of APPs: http://en.wikipedia.org/wiki/Bundle_(macOS)
+
 Wikipedia is pretty informative on the subject of IPAs: http://en.wikipedia.org/wiki/.ipa
 
 IPA files (actually ___archive___ files) are normally signed by a registered Apple
@@ -143,6 +145,12 @@ Developer.
 #### Sentry.io
 
 Sentry documentation: http://docs.sentry.io/
+
+#### Sideloading
+
+> Sideloading has several advantages when compared with other ways of delivering content to mobile devices
+
+For more on Sideloading: http://en.wikipedia.org/wiki/Sideloading
 
 #### TestFlight
 
