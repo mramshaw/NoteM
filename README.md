@@ -73,13 +73,17 @@ Some useful links follow.
  trusted providers should be installed - Google offers a number
  of APK protections, which include scanning the APK for exploits.]
 
-Details: http://developer.android.com/platform/technology/app-bundle
+Overview: http://developer.android.com/platform/technology/app-bundle
 
 AABs tend to reduce some of the bloat of APKs (see [Fat APKs](#fat-apks)
 below for details of APK bloat), plus Google Play Store will handle
 the delivery of builds appropriate for the processor type of the target
 device.  So generally a good idea (much research suggests reducing the
 download size of an app leads to more downloads).
+
+About Android App Bundles: http://developer.android.com/guide/app-bundle
+
+Test your Android App Bundle: http://developer.android.com/guide/app-bundle/test
 
 #### App Signing by Google Play
 
@@ -156,7 +160,14 @@ For more on Sideloading: http://en.wikipedia.org/wiki/Sideloading
 
 Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
 
-[Probably a good idea for iOS releases as Apple requirements are stringent.]
+> TestFlight makes it easy to invite users to test your apps and collect valuable
+> feedback before releasing your apps on the App Store. You can invite up to
+> 10,000 testers using just their email address or by sharing a public link.
+
+[Probably a good idea for iOS releases as Apple requirements are stringent.
+ It sounds a lot like __Fabric__.]
+
+TestFlight on the App Store: http://apps.apple.com/us/app/testflight/id899247664
 
 #### Unsigned IPA files
 
@@ -186,7 +197,7 @@ Also, it may be necessary to ___register___ the target device first.
 
 #### To Do (Google Play Store / Android)
 
-- [ ] Build and test for Android
+- [x] Build and test for Android
 - [ ] Investigate Google Play Store ads
 - [ ] Investigate APKs versus App Bundles (also code-signing)
 - [ ] Publish to the Google Play Store
