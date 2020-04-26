@@ -188,6 +188,7 @@ Also, it may be necessary to ___register___ the target device first.
 - [ ] Build and release for web
 - [ ] Deploy to GitHub Pages
 - [ ] Investigate Google Tag Manager
+- [ ] Investigate SEO for apps
 - [ ] [Optional] Integrate with Fabric.io (deprecated; Crashlytics recommended) or Sentry.io
 - [ ] Set up a CI/CD pipeline
 - [x] Internationalize everything

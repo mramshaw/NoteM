@@ -124,6 +124,14 @@ is only listed for methodology purposes.
 Probably only __4__ needs to be logged, as the others are part
 of application installation and uninstallation, respectively.
 
+## Timing
+
+In order to maintain a consistent approach, in all cases the
+event will be logged just __before__ the actual event takes
+place. This may create problems in the unlikely case that the
+event ___fails___ however logging the ___intent___ of the action
+should create the clearest possible audit trail.
+
 ## To Do
 
 - [ ] Update this document as new Events are discovered
