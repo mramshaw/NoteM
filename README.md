@@ -48,10 +48,11 @@ Notes can be filtered by `star` or `flag`.
 * Persistent storage should be mediated by a DAO (facilitates easy swapping)
 * Application should be [reactive](http://en.wikipedia.org/wiki/Reactive_programming), or - at least - stream-based
 * Include a database maintenance option
+* Significant events logged
 
 #### Instrumentation
 
-The requirements are still to be determined; [Events](Events.md) defined, [Logging details](Logging.md) investigated.
+Application [Events](Events.md) have been defined, [Logging details](Logging.md) have been investigated.
 
 #### Tests
 
@@ -113,13 +114,13 @@ Fabric roadmap: http://get.fabric.io/roadmap
 
 Initial 'fat' release:
 
-    app-release.apk             19.7 MB (19,664,349 bytes)
+    app-release.apk             23   MB (23,086,334 bytes)
 
-Targetted release:
+Targetted releases:
 
-    app-arm64-v8a-release.apk    7.7 MB (8,058,472 bytes)
-    app-armeabi-v7a-release.apk  7.4 MB (7,743,759 bytes)
-    app-x86_64-release.apk       7.9 MB (8,223,996 bytes)
+    app-arm64-v8a-release.apk    8.6 MB  (8,943,212 bytes)
+    app-armeabi-v7a-release.apk  8.2 MB  (8,582,949 bytes)
+    app-x86_64-release.apk       8.8 MB  (9,154,421 bytes)
 
 These APKs correspond to the following processors:
 
@@ -128,6 +129,10 @@ These APKs correspond to the following processors:
     x86_64  app-x86_64-release.apk
 
 [It turns out that it is not easy to determine the processor of an Android phone.]
+
+And the corresponding App Bundle:
+
+    app-release.aab             23   MB (23,207,957 bytes)
 
 #### Google Play Store
 
@@ -184,12 +189,13 @@ Also, it may be necessary to ___register___ the target device first.
 - [x] Add a [Test Plan](TestPlan.md)
 - [ ] Investigate web drivers for testing
 - [x] Investigate the details necessary to effectively debug/analyze the app
-- [ ] Instrument app events to a level of granularity sufficient for debugging & analytics
+- [x] Instrument app events to a level of granularity sufficient for debugging & analytics
+- [ ] Verify granularity of instrumentation for Metrics/Analytics/Debugging/Logging purposes
 - [ ] Build and release for web
 - [ ] Deploy to GitHub Pages
 - [ ] Investigate Google Tag Manager
 - [ ] Investigate SEO for apps
-- [ ] [Optional] Integrate with Fabric.io (deprecated; Crashlytics recommended) or Sentry.io
+- [x] [Optional] Integrate with Fabric.io (deprecated; Crashlytics recommended) or Sentry.io
 - [ ] Set up a CI/CD pipeline
 - [x] Internationalize everything
 - [x] Translations (English)

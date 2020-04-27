@@ -159,4 +159,6 @@ In order to be better able to ___triage___ bug/crash reports, robust release ver
 ## To Do
 
 - [ ] Automate this testing
+- [ ] Verify that everything works in offline mode - Android
+- [ ] Verify that everything works in offline mode - iOS
 - [ ] Incorporate into CI/CD pipeline
