@@ -122,13 +122,21 @@ Targetted releases:
     app-armeabi-v7a-release.apk  8.2 MB  (8,582,949 bytes)
     app-x86_64-release.apk       8.8 MB  (9,154,421 bytes)
 
+[These are in roughly chronological order: the newest phones are
+ probably ARM64 (v8a) processors; older phones are probably ARM
+ (v7a) processors; and the oldest phones x86_64 processors (and
+ there is an even older option - which is not a target build for
+ ths app).]
+
 These APKs correspond to the following processors:
 
     ARM     app-armeabi-v7a-release.apk
     ARM64   app-arm64-v8a-release.apk
     x86_64  app-x86_64-release.apk
 
-[It turns out that it is not easy to determine the processor of an Android phone.]
+[It is non-trivial to determine the processor of an Android device.
+ Trial-and-error works; this app is tested & working on ARM and ARM64
+ processors.]
 
 And the corresponding App Bundle:
 
