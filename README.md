@@ -29,7 +29,7 @@ The contents are as follows:
     * [TestFlight](#testflight)
     * [Unsigned IPA files](#unsigned-ipa-files)
 * [To Do (General)](#to-do-general)
-    * [To Do (Google Play Store / Android)](#to-do-google-play-store-android)
+    * [To Do (Google Play Store / Android)](#to-do-google-play-store--android)
     * [To Do (Apple App Store/ iOS)](#to-do-apple-app-store-ios)
 
 ## Goals
@@ -93,6 +93,8 @@ Unit tests as follows:
 ## Reference
 
 Some useful links follow.
+
+[The links are in alphabetical order.]
 
 #### Android App Bundle
 
