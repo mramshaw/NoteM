@@ -4,12 +4,40 @@
 
 A mobile note-taking app
 
+## Contents
+
+The contents are as follows:
+
+* [Goals](#goals)
+    * [Storage](#storage)
+    * [Validation](#validation)
+    * [Actions](#actions)
+    * [Architecture](#architecture)
+    * [Instrumentation](#instrumentation)
+    * [Tests](#tests)
+* [Reference](#reference)
+    * [Android App Bundle](#android-app-bundle)
+    * [App Signing by Google Play](#app-signing-by-google-play)
+    * [Apple App Store](#apple-app-store)
+    * [Apple Developer Program](#apple-developer-program)
+    * [Fabric.io](#fabricio)
+    * [Fat APKs](#fat-apks)
+    * [Google Play Store](#google-play-store)
+    * [IPA files](#ipa-files)
+    * [Sentry.io](#sentryio)
+    * [Sideloading](#sideloading)
+    * [TestFlight](#testflight)
+    * [Unsigned IPA files](#unsigned-ipa-files)
+* [To Do (General)](#to-do-general)
+    * [To Do (Google Play Store / Android)](#to-do-google-play-store-android)
+    * [To Do (Apple App Store/ iOS)](#to-do-apple-app-store-ios)
+
 ## Goals
 
 A note-taking app that can be used on mobile:
 
 * Either iOS or Android
-* Does not depend upon cloud storage
+* Does not depend upon cloud storage (can work offline)
 * Possibly web (optionally)
 
 Possible uses:
@@ -126,7 +154,7 @@ Targetted releases:
  probably ARM64 (v8a) processors; older phones are probably ARM
  (v7a) processors; and the oldest phones x86_64 processors (and
  there is an even older option - which is not a target build for
- ths app).]
+ this app).]
 
 These APKs correspond to the following processors:
 
