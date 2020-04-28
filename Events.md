@@ -7,7 +7,7 @@ A list of events to be logged for debugging/analytics purposes
 Even though this is a relatively small application, the number
 of events (user and otherwise) to be logged is surprising.
 
-[Presently ___30___ (although not all will be logged) and this
+[Presently ___31___ (although not all will be logged) and this
  is without any consideration of hardware/language/demographic
  characteristics - these are investigated in [Logging](Logging.md).]
 
@@ -48,11 +48,17 @@ principles).
 ## Session
 
 1. Session initiated
-2. <del>Session abandoned</del>
+2. <del>Session ended</del>
+3. <del>Session abandoned</del>
 
-[It will be somewhat difficult to determine __2__ without
- defining some definition of a timeout period. This is
- probably more of a __dashboard__ responsibility.]
+[Due to the way apps work, determining the difference between
+ __2__ and __3__ is problematic. Likewise determining length
+ of session is problematic. Assume __1__ will only be reported
+ after 10 seconds (which is a good margin to allow for actual
+ app engagement while ignoring false-opens) and that the
+ session times-out after 30 minutes of inactivity (it doesn't
+ seem as if closing the app affects this). These session
+ definitions are perhaps more of a __dashboard__ responsibility.]
 
 ## Page Views
 
