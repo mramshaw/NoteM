@@ -13,6 +13,7 @@ The contents are as follows:
     * [Validation](#validation)
     * [Actions](#actions)
     * [Architecture](#architecture)
+    * [Performance](#performance)
     * [Instrumentation](#instrumentation)
     * [Tests](#tests)
 * [Reference](#reference)
@@ -77,6 +78,11 @@ Notes can be filtered by `star` or `flag`.
 * Application should be [reactive](http://en.wikipedia.org/wiki/Reactive_programming), or - at least - stream-based
 * Include a database maintenance option
 * Significant events logged
+
+#### Performance
+
+* Should have native levels of performance for each platform (Android or iOS)
+* Telemetry should not significantly impact performance (particularly in offline mode)
 
 #### Instrumentation
 
@@ -239,6 +245,8 @@ Also, it may be necessary to ___register___ the target device first.
 - [x] Translations (English)
 - [x] Translations (French)
 - [ ] Translations (Spanish)
+- [ ] Have someone review French Translation
+- [ ] Have someone review Spanish Translation
 
 #### To Do (Google Play Store / Android)
 
@@ -246,6 +254,7 @@ Also, it may be necessary to ___register___ the target device first.
 - [ ] Investigate Google Play Store ads
 - [ ] Investigate APKs versus App Bundles (also code-signing)
 - [ ] Publish to the Google Play Store
+- [ ] Benchmark performance (offline performance also)
 
 #### To Do (Apple App Store/ iOS)
 
@@ -253,3 +262,4 @@ Also, it may be necessary to ___register___ the target device first.
 - [ ] Investigate Apple APPs versus Apple IPAs (also code-signing)
 - [ ] [Optional] Publish to TestFlight
 - [ ] Publish to the App Store
+- [ ] Benchmark performance (offline performance also)
