@@ -27,7 +27,25 @@ for legal purposes:
 * Residence (Country, region, principality)
 * Nationality
 
-[Probably depend upon Apple App Store / Google Play Store reporting for these.]
+Mostly these details will be from one, or a combination, of:
+
+1. Apple App Store
+2. Google Play Store
+3. Identity Provider
+
+While the user's physical location while using the app (which neither confirms
+residence nor nationality) can largely be determined from the transmission location
+via I.P. Blocks, demographic information requires that the user sign-in to our app.
+
+[This, of course, should require ___informed consent___.]
+
+Without these details, traditional __Audience Identification__ (sometimes known
+as __Market Segmentation__) may well prove difficult. Of course, it will still
+be possible to identify audiences due to in-app engagement (but this requires
+some thought as to the details to be recorded to enable this).
+
+[Enough details must also be tracked to enable __Cohort Identification__, or
+ more specifically ___Retention___, if this is desired.]
 
 ## Device
 
@@ -47,6 +65,10 @@ isolate the particular app build that may be problematic.
 Language (English, French) is a user setting, but is listed here as a
 device characteristic. Locale may not be present, but is generally a
 sub-category of language (as in __en\_US__, __fr\_FR__, etc).
+
+Determining the user's preferred language setting may be somewhat more
+complicated without a user sign-in, as this seems to be how this datum
+is normally obtained.
 
 #### Android
 
@@ -86,3 +108,5 @@ of particular interest for future marketing or retargeting efforts
 
 - [ ] Add more details as they are discovered
 - [ ] Add more application event details as they are defined
+- [ ] How to determine user's preferred language without a sign-in?
+- [ ] Can Apple App Store / Google Play Store be relied on for legal requirements?
