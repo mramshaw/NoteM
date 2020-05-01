@@ -128,6 +128,10 @@ How to sign an Android app: http://support.google.com/googleplay/android-develop
 
 #### Apple App Store
 
+Developer program is generally referred to as __App Store Connect__.
+
+[formerly __iTunes Connect__, which still appears in older documentation.]
+
 App Store Review Overview: http://developer.apple.com/app-store/review/
 
 App Store Review Guidelines: http://developer.apple.com/app-store/review/guidelines/
