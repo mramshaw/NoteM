@@ -37,14 +37,13 @@ While the user's physical location while using the app (which neither confirms
 residence nor nationality) can largely be determined from the transmission location
 via I.P. Blocks, demographic information requires that the user sign-in to our app.
 
-[This, of course, should require ___informed consent___. __C__onsent is the __C__
- in the __POTOMAC__ model; with the others being __P__rivacy, __O__wnership,
- __T__raceability, __O__bjectivity, __M__isuse, and __A__ccuracy. As it is
- generally a requirement to publish a ___Privacy Policy___, it is a good idea
- to carefully consider privacy concerns, as requirements and associated laws can
- only be expected to become more onerous. Of particular concern are devices
- that may be ___voice-activated___ as these introduce an entirely new set
- of privacy concerns.]
+[This, of course, should require ___informed consent___. Consent is the __C__
+ in the __POTOMAC__ model; with the others being Privacy, Ownership,
+ Traceability, Objectivity, Misuse, and Accuracy. As it is generally a requirement
+ to publish a ___Privacy Policy___, it is a good idea  to carefully consider privacy
+ concerns, as requirements and associated laws can only be expected to become more
+ onerous. Of particular concern are devices that may be ___voice-activated___ as
+ these introduce an entirely new set of privacy concerns.]
 
 Without these user details, traditional __Audience Identification__ (sometimes
 known as __Market Segmentation__) may well prove difficult. Of course, it will
