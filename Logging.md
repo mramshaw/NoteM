@@ -1,6 +1,6 @@
 # Logging
 
-Investigate the details to be logged to facilitate debugging/analytics
+Investigate the details to be logged to facilitate crash reporting/debugging/analytics
 
 ## Overview
 
@@ -41,7 +41,10 @@ via I.P. Blocks, demographic information requires that the user sign-in to our a
  in the __POTOMAC__ model; with the others being __P__rivacy, __O__wnership,
  __T__raceability, __O__bjectivity, __M__isuse, and __A__ccuracy. As it is
  generally a requirement to publish a ___Privacy Policy___, it is a good idea
- to carefully consider privacy concerns, as laws will probably only increase.]
+ to carefully consider privacy concerns, as requirements and associated laws can
+ only be expected to become more onerous. Of particular concern are devices
+ that may be ___voice-activated___ as these introduce an entirely new set
+ of privacy concerns.]
 
 Without these user details, traditional __Audience Identification__ (sometimes
 known as __Market Segmentation__) may well prove difficult. Of course, it will
@@ -50,6 +53,16 @@ some thought as to the details to be recorded to enable this).
 
 [Enough details must also be tracked to enable __Cohort Identification__, or
  more specifically ___Retention___, if this is desired.]
+
+#### Privacy and Ethics
+
+Some links related to voice-activated devices follow.
+
+General comments on privacy in relation to [Alexa devices](http://github.com/mramshaw/Alexa-Stuff#privacy).
+
+General comments on ethics in relation to [Alexa devices](http://github.com/mramshaw/Alexa-Stuff#ethics).
+
+Google appears to have a [fairly proactive approach to privacy](http://github.com/mramshaw/Google-Assistant#privacy).
 
 ## Device
 
@@ -70,9 +83,9 @@ Language (English, French) is a user setting, but is listed here as a
 device characteristic. Locale may not be present, but is generally a
 sub-category of language (as in __en\_US__, __fr\_FR__, etc).
 
-Determining the user's preferred language setting may be somewhat more
-complicated without a user sign-in, as this seems to be how this datum
-is normally obtained.
+Determining the user's ___preferred___ language setting may be complicated
+without a user sign-in, as this seems to be how this datum is normally
+obtained.
 
 #### Android
 
@@ -112,5 +125,6 @@ of particular interest for future marketing or retargeting efforts
 
 - [ ] Add more details as they are discovered
 - [ ] Add more application event details as they are defined
+- [ ] How to set default language for the app?
 - [ ] How to determine user's preferred language without a sign-in?
 - [ ] Can Apple App Store / Google Play Store be relied on for legal requirements?
