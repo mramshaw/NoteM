@@ -22,7 +22,9 @@ The contents are as follows:
     * [Apple App Store](#apple-app-store)
     * [Apple Developer Program](#apple-developer-program)
     * [Fabric.io](#fabricio)
+    * [fastlane](#fastlane)
     * [Fat APKs](#fat-apks)
+    * [Firebase App Distribution](#firebase-app-distribution)
     * [Google Play Store](#google-play-store)
     * [IPA files](#ipa-files)
     * [Sentry.io](#sentryio)
@@ -150,6 +152,19 @@ Gives access to [TestFlight](#testflight) as well as [App Store Connect](http://
 
 Fabric roadmap: http://get.fabric.io/roadmap
 
+#### fastlane
+
+> Automate your development and release process
+
+From: http://fastlane.tools/
+
+Seems to be another integration platform, along the lines of Fabric.io (now owned by
+Google and integrated into Firebase) or [buddybuild](http://www.buddybuild.com/) (owned by Apple).
+Unlike buddybuild, it covers both Android builds and iOS builds.
+
+Integrated with [Firebase App Distribution](#firebase-app-distribution) (which also covers
+both Android and iOS).
+
 #### Fat APKs
 
 Initial 'fat' release:
@@ -181,6 +196,31 @@ These APKs correspond to the following processors:
 And the corresponding App Bundle:
 
     app-release.aab             23   MB (23,207,957 bytes)
+
+#### Firebase App Distribution
+
+Covers both Android builds and iOS builds.
+
+Offers three integrations:
+
+* Firebase console
+* Firebase CLI
+* [fastlane](#fastlane)
+
+[For Android builds, also offers __Gradle__.]
+
+__Nota Bene__ (mainly a warning):
+
+> Firebase App Distribution is a __beta release__. This means that
+> the functionality might change in backward-incompatible ways. A
+> beta release is not subject to any SLA or deprecation policy and
+> may receive limited or no support.
+
+From: http://firebase.google.com/docs/app-distribution
+
+[Seems to be a viable alternative to [TestFlight](#testflight).]
+
+Optional integration with Crashlytics (now called Firebase Crashlytics).
 
 #### Google Play Store
 
@@ -257,6 +297,7 @@ Also, it may be necessary to ___register___ the target device first.
 - [x] Build and test for Android
 - [ ] Investigate Google Play Store ads
 - [ ] Investigate APKs versus App Bundles (also code-signing)
+- [ ] [Optional] Publish to [Firebase App Distribution](#firebase-app-distribution)
 - [ ] Publish to the Google Play Store
 - [ ] Benchmark performance (offline performance also)
 
@@ -264,6 +305,6 @@ Also, it may be necessary to ___register___ the target device first.
 
 - [ ] Build and test for iOS
 - [ ] Investigate Apple APPs versus Apple IPAs (also code-signing)
-- [ ] [Optional] Publish to TestFlight
+- [ ] [Optional] Publish to [TestFlight](#testflight) or [Firebase App Distribution](#firebase-app-distribution)
 - [ ] Publish to the App Store
 - [ ] Benchmark performance (offline performance also)
