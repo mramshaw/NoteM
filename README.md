@@ -162,7 +162,7 @@ Seems to be another integration platform, along the lines of Fabric.io (now owne
 Google and integrated into Firebase) or [buddybuild](http://www.buddybuild.com/) (owned by Apple).
 Unlike buddybuild, it covers both Android builds and iOS builds.
 
-Integrated with [Firebase App Distribution](#firebase-app-distribution) (which also covers
+Can be used with [Firebase App Distribution](#firebase-app-distribution) (which also covers
 both Android and iOS).
 
 #### Fat APKs
@@ -209,7 +209,7 @@ Offers three integrations:
 
 [For Android builds, also offers __Gradle__.]
 
-__Nota Bene__ (mainly a warning):
+___Nota Bene___ (mainly a warning):
 
 > Firebase App Distribution is a __beta release__. This means that
 > the functionality might change in backward-incompatible ways. A
