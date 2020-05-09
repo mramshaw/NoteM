@@ -2,6 +2,11 @@
 
 A list of events to be logged for debugging/analytics purposes
 
+[When an app crashes, tracing the logged events can give some
+ useful ___context___ to the actual problem. Generally, Crash
+ Reporting services merely provide stack-traces (although some
+ ___breadcrumbs___ may also be supplied).]
+
 ## Rationale
 
 Even though this is a relatively small application, the number

@@ -21,6 +21,7 @@ The contents are as follows:
     * [App Signing by Google Play](#app-signing-by-google-play)
     * [Apple App Store](#apple-app-store)
     * [Apple Developer Program](#apple-developer-program)
+    * [Crashlytics](#crashlytics)
     * [Fabric.io](#fabricio)
     * [fastlane](#fastlane)
     * [Fat APKs](#fat-apks)
@@ -148,9 +149,17 @@ Home page: http://developer.apple.com/programs/
 
 Gives access to [TestFlight](#testflight) as well as [App Store Connect](http://appstoreconnect.apple.com/).
 
+#### Crashlytics
+
+[Acquired by Google; now called Firebase Crashlytics.]
+
+http://firebase.google.com/docs/crashlytics/
+
 #### Fabric.io
 
 Fabric roadmap: http://get.fabric.io/roadmap
+
+[Acquired by Google; now integrated into Firebase. Links to all of the replacing Firebase products.]
 
 #### fastlane
 
@@ -158,9 +167,9 @@ Fabric roadmap: http://get.fabric.io/roadmap
 
 From: http://fastlane.tools/
 
-Seems to be another integration platform, along the lines of Fabric.io (now owned by
-Google and integrated into Firebase) or [buddybuild](http://www.buddybuild.com/) (owned by Apple).
-Unlike buddybuild, it covers both Android builds and iOS builds.
+Seems to be another integration platform, along the lines of [Fabric.io](#fabricio)
+(now owned by Google and integrated into Firebase) or [buddybuild](http://www.buddybuild.com/)
+(owned by Apple). Unlike buddybuild, it covers both Android builds and iOS builds.
 
 Can be used with [Firebase App Distribution](#firebase-app-distribution) (which also covers
 both Android and iOS).
@@ -199,15 +208,17 @@ And the corresponding App Bundle:
 
 #### Firebase App Distribution
 
+> built as the next evolution of Fabric's Crashlytics Beta
+
 Covers both Android builds and iOS builds.
 
-Offers three integrations:
+Offers three integrations (from simplest to most complex):
 
 * Firebase console
 * Firebase CLI
 * [fastlane](#fastlane)
 
-[For Android builds, also offers __Gradle__.]
+[For Android builds, there is also __Gradle__.]
 
 ___Nota Bene___ (mainly a warning):
 
@@ -258,7 +269,7 @@ Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
 > 10,000 testers using just their email address or by sharing a public link.
 
 [Probably a good idea for iOS releases as Apple requirements are stringent.
- It sounds a lot like __Fabric__.]
+ It sounds a lot like [Fabric.io](#fabricio).]
 
 TestFlight on the App Store: http://apps.apple.com/us/app/testflight/id899247664
 
@@ -283,7 +294,7 @@ Also, it may be necessary to ___register___ the target device first.
 - [ ] Deploy to GitHub Pages
 - [ ] Investigate Google Tag Manager
 - [ ] Investigate SEO for apps
-- [x] [Optional] Integrate with Fabric.io (deprecated; Crashlytics recommended) or Sentry.io
+- [x] [Optional] Integrate with [Crashlytics](#crashlytics) or [Sentry.io](#sentryio)
 - [ ] Set up a CI/CD pipeline
 - [x] Internationalize everything
 - [x] Translations (English)
@@ -298,6 +309,7 @@ Also, it may be necessary to ___register___ the target device first.
 - [ ] Investigate Google Play Store ads
 - [ ] Investigate APKs versus App Bundles (also code-signing)
 - [ ] [Optional] Publish to [Firebase App Distribution](#firebase-app-distribution)
+- [ ] [Optional] Gather feedback from Beta-testers
 - [ ] Publish to the Google Play Store
 - [ ] Benchmark performance (offline performance also)
 
@@ -305,6 +317,7 @@ Also, it may be necessary to ___register___ the target device first.
 
 - [ ] Build and test for iOS
 - [ ] Investigate Apple APPs versus Apple IPAs (also code-signing)
-- [ ] [Optional] Publish to [TestFlight](#testflight) or [Firebase App Distribution](#firebase-app-distribution)
+- [ ] [Optional] Publish to [Firebase App Distribution](#firebase-app-distribution) or [TestFlight](#testflight)
+- [ ] [Optional] Gather feedback from Beta-testers
 - [ ] Publish to the App Store
 - [ ] Benchmark performance (offline performance also)
