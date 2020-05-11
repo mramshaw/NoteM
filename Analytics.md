@@ -1,15 +1,21 @@
 # Analytics
 
-List analytics providers
+List analytics providers for mobile apps (Android and iOS)
 
 ## Providers
 
 In alphabetic order:
 
-1. [Flurry](#flurry)
-2. [Google Analytics](#google-analytics)
-3. [Twitter Analytics](#twitter-analytics)
+1. [Fabric.io Analytics](#fabricio-analytics)
+2. [Flurry](#flurry)
+3. [Google Analytics](#google-analytics)
 4. [upland Localytics](#upland-localytics)
+
+## Fabric.io Analytics
+
+[Formerly Fabric.io Answers]
+
+Now part of [Google Analytics](#google-analytics) [Google acquired Fabric.io]
 
 ## Flurry
 
@@ -25,13 +31,17 @@ From: http://www.flurry.com/
 
 ## Google Analytics
 
-http://analytics.google.com/
+The former Fabric.io products were rolled into Firebase after Google acquired Fabric.io:
 
-## Twitter Analytics
+    http://get.fabric.io/
 
-Former Twitter Answers?
+Note that the linked Google Analytics page actually has a Firebase URL:
 
-http://analytics.twitter.com/
+    http://firebase.google.com/docs/analytics/
+
+[Even so, the linked page describes itself as Google Analytics - and is the place to go for mobile.]
+
+Offers an integration with Crashlytics (along with other Google services).
 
 ## upland Localytics
 
