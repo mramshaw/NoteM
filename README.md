@@ -17,6 +17,7 @@ The contents are as follows:
     * [Instrumentation](#instrumentation)
     * [Tests](#tests)
 * [Reference](#reference)
+    * [Analytics Providers](#analytics-providers)
     * [Android App Bundle](#android-app-bundle)
     * [App Signing by Google Play](#app-signing-by-google-play)
     * [Apple App Store](#apple-app-store)
@@ -80,7 +81,7 @@ Notes can be filtered by `star` or `flag`.
 * Persistent storage should be mediated by a DAO (facilitates easy swapping)
 * Application should be [reactive](http://en.wikipedia.org/wiki/Reactive_programming), or - at least - stream-based
 * Include a database maintenance option
-* Significant events logged
+* Significant [events](Events.md) logged
 
 #### Performance
 
@@ -93,7 +94,7 @@ Application [Events](Events.md) have been defined, [Logging details](Logging.md)
 
 #### Tests
 
-Follow [Test Plan](TestPlan.md).
+Follow [Test Plan](TestPlan.md) in English, French and (eventually) Spanish.
 
 Unit tests as follows:
 
@@ -104,6 +105,12 @@ Unit tests as follows:
 Some useful links follow.
 
 [The links are in alphabetical order.]
+
+#### Analytics Providers
+
+As with Crash Reporting providers, there are many options.
+
+Here is a list of [Analytics Providers](Anaylytics.md).
 
 #### Android App Bundle
 
@@ -231,7 +238,7 @@ From: http://firebase.google.com/docs/app-distribution
 
 [Seems to be a viable alternative to [TestFlight](#testflight).]
 
-Optional integration with Crashlytics (now called Firebase Crashlytics).
+Optional integration with [Crashlytics](#crashlytics).
 
 #### Google Play Store
 
@@ -302,6 +309,7 @@ Also, it may be necessary to ___register___ the target device first.
 - [ ] Translations (Spanish)
 - [ ] Have someone review French Translation
 - [ ] Have someone review Spanish Translation
+- [ ] Investigate Analytics providers
 
 #### To Do (Google Play Store / Android)
 
