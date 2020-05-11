@@ -110,7 +110,7 @@ Some useful links follow.
 
 As with Crash Reporting providers, there are many options.
 
-Here is a list of [Analytics Providers](Anaylytics.md).
+Here is a list of [Analytics Providers](Analytics.md).
 
 #### Android App Bundle
 
@@ -309,7 +309,7 @@ Also, it may be necessary to ___register___ the target device first.
 - [ ] Translations (Spanish)
 - [ ] Have someone review French Translation
 - [ ] Have someone review Spanish Translation
-- [ ] Investigate Analytics providers
+- [ ] Investigate [Analytics Providers](#analytics-providers)
 
 #### To Do (Google Play Store / Android)
 
