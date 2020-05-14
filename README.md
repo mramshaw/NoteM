@@ -27,6 +27,7 @@ The contents are as follows:
     * [fastlane](#fastlane)
     * [Fat APKs](#fat-apks)
     * [Firebase App Distribution](#firebase-app-distribution)
+    * [Firebase Remote Config](#firebase-remote-config)
     * [Google Play Store](#google-play-store)
     * [IPA files](#ipa-files)
     * [Sentry.io](#sentryio)
@@ -214,6 +215,9 @@ And the corresponding App Bundle:
 
     app-release.aab             23   MB (23,207,957 bytes)
 
+[The App Bundle should include builds for ARM, ARM64 and x86_64 - so this
+ App Bundle should be about the same size as the Fat APK - which it is.]
+
 #### Firebase App Distribution
 
 > built as the next evolution of Fabric's Crashlytics Beta
@@ -240,6 +244,27 @@ From: http://firebase.google.com/docs/app-distribution
 [Seems to be a viable alternative to [TestFlight](#testflight).]
 
 Optional integration with [Crashlytics](#crashlytics).
+
+#### Firebase Remote Config
+
+[Similiar to Environment variables, effectively server-side parameters.
+ As with Environment variables, need to define sensible fallback defaults.]
+
+Enables [A/B Testing](http://firebase.google.com/docs/ab-testing),
+seasonal theming, as well as many other possibilities.
+
+Overview: http://firebase.google.com/products/remote-config/
+
+> Firebase Remote Config is a cloud service that lets you  
+> change the behavior and appearance of your app without  
+> requiring users to download an app update. When using  
+> Remote Config, you create in-app default values that  
+> control the behavior and appearance of your app. Then,  
+> you can later use the Firebase console or the Remote  
+> Config backend APIs to override in-app default values for  
+> all app users or for segments of your user base.
+
+From: http://firebase.google.com/docs/remote-config/
 
 #### Google Play Store
 
@@ -310,7 +335,8 @@ Also, it may be necessary to ___register___ the target device first.
 - [ ] Translations (Spanish)
 - [ ] Have someone review French Translation
 - [ ] Have someone review Spanish Translation
-- [ ] Investigate [Analytics Providers](#analytics-providers)
+- [x] Investigate [Analytics Providers](#analytics-providers)
+- [x] Investigate [Firebase Remote Config](#firebase-remote-config)
 
 #### To Do (Google Play Store / Android)
 

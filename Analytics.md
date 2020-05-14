@@ -19,6 +19,8 @@ Now part of [Google Analytics](#google-analytics) [Google acquired Fabric.io]
 
 ## Flurry
 
+[Owned by Yahoo]
+
 > __The World’s Most__  
 > __Adopted App Analytics__  
 >
