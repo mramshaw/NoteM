@@ -224,6 +224,10 @@ And the corresponding App Bundle:
 
 Covers both Android builds and iOS builds.
 
+As of the time of writing (May, 2020) only supports APKs and
+[IPA files](#ipa-files) (which must be signed). [Android App Bundles](#android-app-bundle)
+are not supported.
+
 Offers three integrations (from simplest to most complex):
 
 * Firebase console
@@ -342,7 +346,7 @@ Also, it may be necessary to ___register___ the target device first.
 
 - [x] Build and test for Android
 - [ ] Investigate Google Play Store ads
-- [ ] Investigate APKs versus App Bundles (also code-signing)
+- [x] Investigate APKs versus App Bundles (also code-signing)
 - [ ] [Optional] Publish to [Firebase App Distribution](#firebase-app-distribution)
 - [ ] [Optional] Gather feedback from Beta-testers
 - [ ] Publish to the Google Play Store

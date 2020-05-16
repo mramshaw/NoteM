@@ -120,6 +120,18 @@ event details (highly-active or engaged users, for example) that are
 of particular interest for future marketing or retargeting efforts
 (these remain to be defined).
 
+## Reference
+
+Some useful rewferences follow.
+
+#### Android
+
+Device Characteristics: http://developer.android.com/reference/android/os/Build.html
+
+#### iOS
+
+Device Characteristics: http://developer.apple.com/documentation/uikit/uidevice
+
 ## To Do
 
 - [ ] Add more details as they are discovered
@@ -127,3 +139,4 @@ of particular interest for future marketing or retargeting efforts
 - [ ] How to set default language for the app?
 - [ ] How to determine user's preferred language without a sign-in?
 - [ ] Can Apple App Store / Google Play Store be relied on for legal requirements?
+- [x] Add links to Device Characteristics docs
