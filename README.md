@@ -21,6 +21,7 @@ The contents are as follows:
     * [Android App Bundle](#android-app-bundle)
     * [App Signing by Google Play](#app-signing-by-google-play)
     * [Apple App Store](#apple-app-store)
+    * [Apple Certificates](#apple-certificates)
     * [Apple Developer Program](#apple-developer-program)
     * [Crashlytics](#crashlytics)
     * [Fabric.io](#fabricio)
@@ -33,6 +34,7 @@ The contents are as follows:
     * [Sentry.io](#sentryio)
     * [Sideloading](#sideloading)
     * [TestFlight](#testflight)
+    * [UDIDs](#udids)
     * [Unsigned IPA files](#unsigned-ipa-files)
 * [To Do (General)](#to-do-general)
     * [To Do (Google Play Store / Android)](#to-do-google-play-store--android)
@@ -151,6 +153,21 @@ App Store Review Guidelines: http://developer.apple.com/app-store/review/guideli
 App Store Submissions: http://developer.apple.com/app-store/submissions/
 
 Analytics: http://developer.apple.com/app-store-connect/analytics/
+
+#### Apple Certificates
+
+Generally, apart from [Unsigned IPA files](#unsigned-ipa-files), iOS apps
+should be signed by Apple. This requires certificates.
+
+Apple certificates seem to fall into two categories: __developer certificates__
+and __provisioning certificates__. Provisioning certificates can be further
+divided into __App Store__ (for distribution to [TestFlight](#testflight) or
+the [Apple App Store](#apple-app-store)) and __Ad Hoc__ (general distribution,
+probably for testing purposes, to anyone other than [TestFlight](#testflight)
+or the [Apple App Store](#apple-app-store)).
+
+[For __Ad Hoc__ testing it appears the device must be registered; for __App Store__
+ (i.e. [TestFlight](#testflight)) testing this does not seem to be the case.]
 
 #### Apple Developer Program
 
@@ -310,13 +327,23 @@ Beta Testing Made Simple with TestFlight: http://developer.apple.com/testflight/
 
 TestFlight on the App Store: http://apps.apple.com/us/app/testflight/id899247664
 
+#### UDIDs
+
+Apple (iOS) devices have a UDID (Unique Device Identifier).
+
+[This is apparently a 40-character hexadecimal string.]
+
+For testing, it may be necessary to register these device IDs in advance.
+
+To determine the device's UDID: http://whatsmyudid.com/
+
 #### Unsigned IPA files
 
 How to open an unsigned IPA: http://support.apple.com/en-us/guide/mac-help/mh40616/mac
 
 While it is possible to install unsigned IPAs, they may only be valid for seven days.
 
-Also, it may be necessary to ___register___ the target device first.
+It may be necessary to ___register___ the [UDID](#udids) of the target device first.
 
 ## To Do (General)
 
@@ -332,7 +359,6 @@ Also, it may be necessary to ___register___ the target device first.
 - [ ] Investigate Google Tag Manager
 - [ ] Investigate SEO for apps
 - [x] [Optional] Integrate with [Crashlytics](#crashlytics) or [Sentry.io](#sentryio)
-- [ ] Set up a CI/CD pipeline
 - [x] Internationalize everything
 - [x] Translations (English)
 - [x] Translations (French)
@@ -346,7 +372,9 @@ Also, it may be necessary to ___register___ the target device first.
 
 - [x] Build and test for Android
 - [ ] Investigate Google Play Store ads
-- [x] Investigate APKs versus App Bundles (also code-signing)
+- [x] Investigate APKs versus App Bundles
+- [x] Investigate Android code-signing
+- [ ] Set up a CI/CD pipeline
 - [ ] [Optional] Publish to [Firebase App Distribution](#firebase-app-distribution)
 - [ ] [Optional] Gather feedback from Beta-testers
 - [ ] Publish to the Google Play Store
@@ -355,7 +383,9 @@ Also, it may be necessary to ___register___ the target device first.
 #### To Do (Apple App Store/ iOS)
 
 - [ ] Build and test for iOS
-- [ ] Investigate Apple APPs versus Apple IPAs (also code-signing)
+- [x] Investigate Apple APPs versus Apple IPAs
+- [ ] Investigate Apple App code-signing
+- [ ] Set up a CI/CD pipeline
 - [ ] [Optional] Publish to [Firebase App Distribution](#firebase-app-distribution) or [TestFlight](#testflight)
 - [ ] [Optional] Gather feedback from Beta-testers
 - [ ] Publish to the App Store
