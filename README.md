@@ -160,11 +160,15 @@ Generally, apart from [Unsigned IPA files](#unsigned-ipa-files), iOS apps
 should be signed by Apple. This requires certificates.
 
 Apple certificates seem to fall into two categories: __developer certificates__
-and __provisioning certificates__. Provisioning certificates can be further
-divided into __App Store__ (for distribution to [TestFlight](#testflight) or
-the [Apple App Store](#apple-app-store)) and __Ad Hoc__ (general distribution,
-probably for testing purposes, to anyone other than [TestFlight](#testflight)
-or the [Apple App Store](#apple-app-store)).
+and __provisioning certificates__.
+
+Developer certificates are meant for local testing only.
+
+Provisioning certificates can apparently be divided into __App Store__ (for
+distribution to [TestFlight](#testflight) or the [Apple App Store](#apple-app-store))
+certificates and __Ad Hoc__ (general distribution, probably for testing purposes,
+to anyone other than [TestFlight](#testflight) or the [Apple App Store](#apple-app-store))
+certificates.
 
 [For __Ad Hoc__ testing it appears the device must be registered; for __App Store__
  (i.e. [TestFlight](#testflight)) testing this does not seem to be the case.]
@@ -334,6 +338,9 @@ Apple (iOS) devices have a UDID (Unique Device Identifier).
 [This is apparently a 40-character hexadecimal string.]
 
 For testing, it may be necessary to register these device IDs in advance.
+
+[As with determining an Android device's processor type, determining an iOS
+ device's UDID appears to be non-trivial.]
 
 To determine the device's UDID: http://whatsmyudid.com/
 
