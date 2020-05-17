@@ -170,8 +170,10 @@ certificates and __Ad Hoc__ (general distribution, probably for testing purposes
 to anyone other than [TestFlight](#testflight) or the [Apple App Store](#apple-app-store))
 certificates.
 
-[For __Ad Hoc__ testing it appears the device must be registered; for __App Store__
- (i.e. [TestFlight](#testflight)) testing this does not seem to be the case.]
+For __Ad Hoc__ testing it appears the device must be registered; for __App Store__
+(i.e. [TestFlight](#testflight)) testing this does not seem to be the case.
+
+To register the testing device, the [UDID](#udids) of the target device is required.
 
 #### Apple Developer Program
 
