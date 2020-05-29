@@ -384,8 +384,9 @@ It may be necessary to ___register___ the [UDID](#udids) of the target device fi
 - [x] Investigate APKs versus App Bundles
 - [x] Investigate Android code-signing
 - [ ] Set up a CI/CD pipeline
-- [ ] [Optional] Publish to [Firebase App Distribution](#firebase-app-distribution)
-- [ ] [Optional] Gather feedback from Beta-testers
+- [x] [Optional] Test with Firebase Test Lab
+- [x] [Optional] Publish to [Firebase App Distribution](#firebase-app-distribution)
+- [x] [Optional] Gather feedback from Beta-testers
 - [ ] Publish to the Google Play Store
 - [ ] Benchmark performance (offline performance also)
 
@@ -395,6 +396,7 @@ It may be necessary to ___register___ the [UDID](#udids) of the target device fi
 - [x] Investigate Apple APPs versus Apple IPAs
 - [ ] Investigate Apple App code-signing
 - [ ] Set up a CI/CD pipeline
+- [ ] [Optional] Test with Firebase Test Lab
 - [ ] [Optional] Publish to [Firebase App Distribution](#firebase-app-distribution) or [TestFlight](#testflight)
 - [ ] [Optional] Gather feedback from Beta-testers
 - [ ] Publish to the App Store

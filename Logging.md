@@ -104,11 +104,11 @@ latest iOS release (but might trail by a release or two).
 #### Android vs. iOS
 
 Just as a rule-of-thumb metric for device form factors, as of late May
-2020, Firebase Test Lab supports 135 Android devices (`Pixel 2` recommended,
-with 134 other devices available) versus only 16 iOS devices (`iPhone 8`
-recommended, with 15 other devices available).
+2020 Firebase Test Lab supports 135 Android devices (__Pixel 2__
+recommended, with 134 other devices available) versus only 16 iOS devices
+(__iPhone 8__ recommended, with 15 other devices available).
 
-So at least __8 times__ as many Andriod devices as iOS devices.
+So at least __8 times__ as many Android devices as iOS devices.
 
 ## Application
 
