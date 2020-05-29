@@ -219,10 +219,10 @@ Targetted releases:
     app-x86_64-release.apk       8.8 MB  (9,154,421 bytes)
 
 [These are in roughly chronological order: the newest phones are
- probably ARM64 (v8a) processors; older phones are probably ARM
- (v7a) processors; and the oldest phones x86_64 processors (and
- there is an even older option - which is not a target build for
- this app).]
+ probably ARM64 (v8a) processors; tablets and older phones are
+ probably ARM (v7a) processors; and the oldest phones x86_64
+ processors (and there is an even older option - which is not
+ a target build for this app).]
 
 These APKs correspond to the following processors:
 
@@ -231,8 +231,8 @@ These APKs correspond to the following processors:
     x86_64  app-x86_64-release.apk
 
 [It is non-trivial to determine the processor of an Android device.
- Trial-and-error works; this app is tested & working on ARM and ARM64
- processors.]
+ Trial-and-error works; this app is tested & working on ARM processor
+ (both tablets and phones) devices and ARM64 processor devices.]
 
 And the corresponding App Bundle:
 
