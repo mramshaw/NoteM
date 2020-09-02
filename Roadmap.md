@@ -14,7 +14,7 @@ The order should be roughly as follows:
 
 [Items __2__ and __3__ could just as easily be __3__ and __2__.]
 
-## Export/Import
+## Export / Import
 
 Provide the ability to Export/Import (back up and restore) the current notes.
 
