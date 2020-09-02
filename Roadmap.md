@@ -8,9 +8,9 @@ List the planned __Application__ improvements.
 
 The order should be roughly as follows:
 
-1. [Export/Import](#export-import)
+1. [Export / Import](#export--import)
 2. [Search](#search)
-3. [Export/Import](#export-import)
+3. [Categories](#categories)
 
 [Items __2__ and __3__ could just as easily be __3__ and __2__.]
 
@@ -34,6 +34,6 @@ the current note category.
 
 ## Categories
 
-Provide the ability ot organize notes into categories.
+Provide the ability to organize notes into categories.
 
-These shiuld operate much as folders, and be displayed first before notes.
+These should operate much like folders, and be displayed first before notes.

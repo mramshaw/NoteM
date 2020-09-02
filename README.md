@@ -358,9 +358,12 @@ It may be necessary to ___register___ the [UDID](#udids) of the target device fi
 
 ## To Do
 
-The following sections cover Application improvements (Android & iOS), General
-improvements not specifically related to the application, Google Play Store / Android
-improvements (i.e. Android only) and Apple App Store / iOS improvements (i.e. iOS only).
+The following sections cover:
+
+1. Application improvements (Android & iOS)
+2. General improvements not specifically related to the application
+3. Google Play Store / Android improvements (i.e. Android only)
+4. Apple App Store / iOS improvements (i.e. iOS only)
 
 #### To Do (Application)
 
