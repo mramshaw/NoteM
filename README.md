@@ -36,7 +36,9 @@ The contents are as follows:
     * [TestFlight](#testflight)
     * [UDIDs](#udids)
     * [Unsigned IPA files](#unsigned-ipa-files)
-* [To Do (General)](#to-do-general)
+* [To Do](#to-do)
+    * [To Do (Application)](#to-do-application)
+    * [To Do (General)](#to-do-general)
     * [To Do (Google Play Store / Android)](#to-do-google-play-store--android)
     * [To Do (Apple App Store/ iOS)](#to-do-apple-app-store-ios)
 
@@ -354,7 +356,17 @@ While it is possible to install unsigned IPAs, they may only be valid for seven 
 
 It may be necessary to ___register___ the [UDID](#udids) of the target device first.
 
-## To Do (General)
+## To Do
+
+The following sections cover Application improvements (Android & iOS), General
+improvements not specifically related to the application, Google Play Store / Android
+improvements (i.e. Android only) and Apple App Store / iOS improvements (i.e. iOS only).
+
+#### To Do (Application)
+
+Please refer to the [Roadmap](Roadmap.md).
+
+#### To Do (General)
 
 - [x] Add links for various deployment options
 - [x] Add notes on Android build architectures
@@ -388,9 +400,10 @@ It may be necessary to ___register___ the [UDID](#udids) of the target device fi
 - [x] [Optional] Publish to [Firebase App Distribution](#firebase-app-distribution)
 - [x] [Optional] Gather feedback from Beta-testers
 - [ ] Publish to the Google Play Store
-- [ ] Benchmark performance (offline performance also)
+- [ ] [Optional] Benchmark performance (offline performance also)
+- [ ] Upgrade to the latest tools (Java, Android Debug Bridge, Android Studio, Visual Studio Code)
 
-#### To Do (Apple App Store/ iOS)
+#### To Do (Apple App Store / iOS)
 
 - [ ] Build and test for iOS
 - [x] Investigate Apple APPs versus Apple IPAs
@@ -400,4 +413,4 @@ It may be necessary to ___register___ the [UDID](#udids) of the target device fi
 - [ ] [Optional] Publish to [Firebase App Distribution](#firebase-app-distribution) or [TestFlight](#testflight)
 - [ ] [Optional] Gather feedback from Beta-testers
 - [ ] Publish to the App Store
-- [ ] Benchmark performance (offline performance also)
+- [ ] [Optional] Benchmark performance (offline performance also)
