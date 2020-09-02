@@ -40,7 +40,7 @@ The contents are as follows:
     * [To Do (Application)](#to-do-application)
     * [To Do (General)](#to-do-general)
     * [To Do (Google Play Store / Android)](#to-do-google-play-store--android)
-    * [To Do (Apple App Store/ iOS)](#to-do-apple-app-store--ios)
+    * [To Do (Apple App Store / iOS)](#to-do-apple-app-store--ios)
 
 ## Goals
 
