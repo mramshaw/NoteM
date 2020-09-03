@@ -2,7 +2,7 @@
 
 ![Graphic](images/playstore.png)
 
-A mobile note-taking app
+A mobile note-taking app, bullet journal, what-have-you
 
 ## Contents
 
@@ -55,6 +55,29 @@ Possible uses:
 1. Keep track of anything that might be put on a sticky
 2. An encrypted password store
 
+Basically a slightly higher-tech version of a [Bullet Journal](http://bulletjournal.com/).
+
+There are a number of things that most of us ___have___ to carry around (keys, wallet, phone)
+so rather than add one more (bullet journal) it seemed like a good idea to write the kind of
+note-taking app that *I* would want, so that I could install it on my phone (or other device).
+Plus it then has the advantage of being both __encrypted__ and __password-protected__ (at
+ least on Android).
+
+For more on bullet journaling:
+
+    http://www.popsci.com/bullet-journal-guide/
+
+The article is well worth a read. Here is a quote:
+
+> If you like Harry Potter, you can think of a bullet journal kind of
+> like a Pensieve—a place to unload thoughts and reminders, which
+> frees and focuses your mental and emotional efforts. Once you've
+> written down all the tiny things you need to get done, you give
+> your brain the capacity and the encouragement to actually _do the
+> things_.
+
+I also use this app in place of sticky notes, also as a kind of digital ___junk drawer___.
+
 #### Storage
 
 Should be capable of:
@@ -70,13 +93,15 @@ Ideally should NOT be dependent upon a device's Cloud account.
 
 * Either a Note title OR a Note body must be present
 
+[The app can also be configured so that only the Note title shows when scrolling.]
+
 #### Actions
 
 * Note can be added
 * Note can be flagged
 * Note can be starred
 * Note can be edited (double-tap)
-* Note can be deleted (swipe)
+* Note can be deleted (swipe, right-to-left only)
 
 Notes can be filtered by `star` or `flag`.
 
