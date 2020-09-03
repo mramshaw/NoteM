@@ -111,8 +111,10 @@ Verify that a note must have ___either___ a title ___or___ a body.
 ## Deleting Notes
 
 It can be quite easy to accidentally delete a note (often without being
-aware of having done so). Accordingly, a number of safeguards have been
-put in place to prevent against this.
+aware of having done so).
+
+Accordingly, a number of safeguards have been put in place to prevent
+against this.
 
 #### Left to Right
 
@@ -123,7 +125,7 @@ Verify that swiping a note from __Left__ to __Right__ does nothing.
 #### Non-deletion
 
 In order to prevent against accidental deletion of notes, the swipe
-must be very decisive in order for the note to be deleted.
+must be decisive in order for the note to be deleted.
 
 Swipe a note approximately 10 percent of the way across the screen:
 
@@ -164,22 +166,22 @@ Close the popup.
 
 #### Only show Note Titles
 
-[To run these tests, an AVD set to Nexus 5X (portrait mode) will be helpful.]
+[To run these tests, an AVD set to `Nexus 5X (portrait mode)` will be helpful.]
 
 By default, the __Only show Note Titles__ option should be disabled:
 
 ![Both Titles and Bodies](images/both_titles_and_bodies.png)
 
 Verify that selecting the __Only show Note Titles__ option affects the scrolling
-display such that only Note Titles are shown:
+display such that only note titles are shown:
 
 ![Only Note Titles](images/only_note_titles.png)
 
-Select the Return option and verify that that Note Bodies are not shown:
+Select the Return option and verify that note bodies are not shown:
 
 ![No Note Bodies](images/no_note_bodies.png)
 
-Re-open the menu and uncheck the __Only show Note Titles__ option.
+Re-open the menu and disable the __Only show Note Titles__ option.
 
 #### Clean up database
 
