@@ -20,6 +20,7 @@ The contents are as follows:
     * [Update note validation](#update-note-validation)
 * [Deleting Notes](#deleting-notes)
     * [Left to Right](#left-to-right)
+    * [Non-deletion](#non-deletion)
     * [Clean up Notes](#clean-up-notes)
 * [Menu items](#menu-items)
     * [About Notes](#about-notes)
@@ -121,25 +122,25 @@ Verify that swiping a note from __Left__ to __Right__ does nothing.
 
 #### Non-deletion
 
-In order to prevent against accidental deletion of Notes, the swipe
-must be very decisive in order for the Note to be deleted.
+In order to prevent against accidental deletion of notes, the swipe
+must be very decisive in order for the note to be deleted.
 
-Swipe a Note approximately 25 percent of the way across the screen:
+Swipe a note approximately 10 percent of the way across the screen:
 
 ![Note small swipe](images/note_small_swipe.png)
 
-And release it. Verify that the Note does not get deleted.
+And release it. Verify that the note does not get deleted.
 
-Swipe a Note approximately 50 percent of the way across the screen:
+Swipe a note approximately 50 percent of the way across the screen:
 
 ![Note big swipe](images/note_big_swipe.png)
 
-And release it. Verify that the Note ___does___ get deleted.
+And release it. Verify that the note ___does___ get deleted.
 
 ![Note deleted](images/note_deleted.png)
 
-Note that there is an informational message indicating that the
-Note has been deleted.
+Verify that there is an informational message indicating that the
+note has been deleted.
 
 #### Clean up Notes
 
@@ -178,7 +179,7 @@ Select the Return option and verify that that Note Bodies are not shown:
 
 ![No Note Bodies](images/no_note_bodies.png)
 
-Re-open the menu and de-select the __Only show Note Titles__ option.
+Re-open the menu and uncheck the __Only show Note Titles__ option.
 
 #### Clean up database
 
