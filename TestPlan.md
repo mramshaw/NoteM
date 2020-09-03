@@ -19,8 +19,11 @@ The contents are as follows:
 * [Updating Notes](#updating-notes)
     * [Update note validation](#update-note-validation)
 * [Deleting Notes](#deleting-notes)
+    * [Left to Right](#left-to-right)
+    * [Clean up Notes](#clean-up-notes)
 * [Menu items](#menu-items)
     * [About Notes](#about-notes)
+    * [Only show Note Titles](#only-show-note-titles)
     * [Clean up database](#clean-up-database)
 * [Monitoring](#monitoring)
     * [Ongoing](#ongoing)
@@ -106,7 +109,41 @@ Verify that a note must have ___either___ a title ___or___ a body.
 
 ## Deleting Notes
 
-To clean up, delete all four notes (swipe right-to-left).
+It can be quite easy to accidentally delete a note (often without being
+aware of having done so). Accordingly, a number of safeguards have been
+put in place to prevent against this.
+
+#### Left to Right
+
+Notes can only be deleted by swiping from __Right__ to __Left__.
+
+Verify that swiping a note from __Left__ to __Right__ does nothing.
+
+#### Non-deletion
+
+In order to prevent against accidental deletion of Notes, the swipe
+must be very decisive in order for the Note to be deleted.
+
+Swipe a Note approximately 25 percent of the way across the screen:
+
+![Note small swipe](images/note_small_swipe.png)
+
+And release it. Verify that the Note does not get deleted.
+
+Swipe a Note approximately 50 percent of the way across the screen:
+
+![Note big swipe](images/note_big_swipe.png)
+
+And release it. Verify that the Note ___does___ get deleted.
+
+![Note deleted](images/note_deleted.png)
+
+Note that there is an informational message indicating that the
+Note has been deleted.
+
+#### Clean up Notes
+
+Finally, to clean up, delete all remaining notes.
 
 The app should now be back in its ___as installed___ state:
 
@@ -123,6 +160,25 @@ Select the 'About Notes' option.
 Verify the about popup shows.
 
 Close the popup.
+
+#### Only show Note Titles
+
+[To run these tests, an AVD set to Nexus 5X (portrait mode) will be helpful.]
+
+By default, the __Only show Note Titles__ option should be disabled:
+
+![Both Titles and Bodies](images/both_titles_and_bodies.png)
+
+Verify that selecting the __Only show Note Titles__ option affects the scrolling
+display such that only Note Titles are shown:
+
+![Only Note Titles](images/only_note_titles.png)
+
+Select the Return option and verify that that Note Bodies are not shown:
+
+![No Note Bodies](images/no_note_bodies.png)
+
+Re-open the menu and de-select the __Only show Note Titles__ option.
 
 #### Clean up database
 

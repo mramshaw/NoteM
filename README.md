@@ -429,7 +429,7 @@ Please refer to the [Roadmap](Roadmap.md).
 - [x] [Optional] Gather feedback from Beta-testers
 - [ ] Publish to the Google Play Store
 - [ ] [Optional] Benchmark performance (offline performance also)
-- [ ] Upgrade to the latest tools (Java, Android Debug Bridge, Android Studio, Visual Studio Code)
+- [x] Upgrade to the latest tools (Java, Android Debug Bridge, Android Studio, Visual Studio Code)
 
 #### To Do (Apple App Store / iOS)
 
