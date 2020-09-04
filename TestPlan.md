@@ -49,6 +49,9 @@ Add four notes as shown:
 
 Verify that a note must have ___either___ a title ___or___ a body.
 
+Verify that there is an informational message indicating that the
+note has been added.
+
 ## Tooltips
 
 ![Tool tips](images/tooltips.png)
@@ -102,7 +105,10 @@ Verify scrolling works correctly.
 
 Update some notes (double-tap the note body to switch to the Update Note screen).
 
-Verify updating notes works correctly.
+Verify that updating notes works correctly.
+
+Verify that there is an informational message indicating that the
+note has been updated.
 
 #### Update note validation
 
